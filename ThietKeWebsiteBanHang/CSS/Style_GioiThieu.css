@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+
+section{
+	width: 1200px;
+	background: white;
+	color: black;
+}
+
+section img{
+	width: 800px;
+	margin-left: 200px;
+}
+
+section p{
+	margin: 10px 20px; 
+}
+
+.introduce-container>p:first-child{
+	font-weight: bold;
+	font-size: 30px;
+	text-align: center;
+}

@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+
+.slide-container{
+	width: 1200px;
+	height: 100%;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.slide-container .slide-stage{
+	position: relative;
+}
+
+.slide-container .slide-stage img{
+	
+}
+
+.slide-container .hinhslide{
+	width: 100%;
+	height: 100%;
+}
+
+.slide-container .prev{
+    position: absolute;
+	top: 170px;
+	left: 0px;
+	width: 28px;
+	height: 44px;
+	display: none;
+}
+
+.slide-container .next{
+	position: absolute;
+	top: 170px;
+	right: 0px;
+	width: 28px;
+	height: 44px;
+	display: none;
+}
+
+.slide-container .prev{
+	display: block;
+	opacity: 0.6;
+}
+
+.slide-container .next{
+	display: block;
+	opacity: 0.6;
+}

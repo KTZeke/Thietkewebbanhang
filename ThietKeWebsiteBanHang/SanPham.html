@@ -1,0 +1,245 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link href="CSS/Style.css" rel="stylesheet" type="text/css">
+	<title>Welcome to Fashion Website</title>
+	<link href="CSS/Style_slideshow.css" rel="stylesheet" type="text/css">
+	<script src="JS/script_1.js"></script>
+	<link href="CSS/Style_SanPham.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<header>
+		<div class="banner-top">
+			<img src="Images/Web/banner_top.PNG" >
+		</div>
+		<div id="logo">
+			<img src="Images/Web/Logo.JPG" />
+		</div>
+		<div id="dn">
+			<img src="Images/account/img_acc_1.png" /><a href="DangNhap.html" target="_blank">Đăng nhập</a><a href="DangKy.html" target="_blank"> | Đăng ký</a>
+			<img src="Images/account/img_acc_2.png" /><a href="#">Giỏ hàng (Trống)</a>
+		</div>
+	</header>
+	
+	<nav>
+		<div id="subnav">
+			<ul>
+				<li><a href="index.html" target="_blank">TRANG CHỦ</a></li>
+				<li><a href="SanPham.html" target="_blank">SẢN PHẨM</a></li>
+				<li><a href="GioiThieu.html" target="_blank">GIỚI THIỆU</a></li>
+				<li><a href="LienHe.html" target="_blank">LIÊN HỆ</a></li>
+			</ul>
+			<div>
+				<input type="search" placeholder="Tìm sản phẩm của bạn ..." size="36" name="Search" />
+				<input type="submit" value="Tìm kiếm" title="Tìm sách" />
+			</div>
+		</div>
+	</nav>
+	
+	<div class="slide-container">
+		<div class="slide-stage">
+			<img class="hinhslide" src="Images/Web/slider_1.jpg">
+			<img class="hinhslide" src="Images/Web/slider_2.jpg" style="display: none">
+			<img class="hinhslide" src="Images/Web/slider_3.jpg" style="display: none">
+			<img class="hinhslide" src="Images/Web/slider_4.jpg" style="display: none">
+			<img class="hinhslide" src="Images/Web/slider_5.jpg" style="display: none">
+		</div>
+		<img src="Images/Web/prev.png" class="prev" onClick="plusSlides(-1)">
+		<img src="Images/Web/next.png" class="next" onClick="plusSlides(1)">
+	</div>
+	<div class="service">
+		<a href="#"><img src="Images/Web/service.JPG"></a>
+	</div>
+	
+	<div id="body">
+		<article>
+			<aside id="left-section">
+				<div id="left">
+					<div class="aside-left-list">
+						<p style="text-decoration: underline; text-decoration-color: #FCAF17">THỜI TRANG NAM</p>
+						<ul type="square">
+							<Li><a href="#">ÁO NAM</a></Li>
+							<li><a href="#">QUẦN NAM</a></li>
+							<li><a href="#">GIÀY DÉP</a></li>
+							<li><a href="#">PHỤ KIỆN NAM</a></li>
+							<li><a href="#">ĐỒ BỘ NAM</a></li>
+							<li><a href="#">ĐỒ THỂ THAO NAM</a></li>
+						</ul>
+					</div>
+					<div class="aside-left-list">
+						<p>THỜI TRANG NỮ</p>
+						<ul type="square">
+							<Li><a href="#">ÁO NỮ</a></Li>
+							<li><a href="#">QUẦN NỮ</a></li>
+							<li><a href="#">ĐẦM VÁY NỮ</a></li>
+							<li><a href="#">GIÀY DÉP</a></li>
+							<li><a href="#">PHỤ KIỆN NỮ</a></li>
+							<li><a href="#">ĐỒ BỘ NỮ</a></li>
+							<li><a href="#">ĐỒ THỂ THAO NỮ</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="right">
+					<div class="topbanchay">
+						<p>TOP BÁN CHẠY</p>
+						<marquee behavior="scroll" direction="up" scrollAmount="3" scrollDelay="100" onMouseMove="stop()" onMouseOut="start()">
+							<p><a href="#"><img src="Images/Products/Product_1.jpg" />Áo Polo Nữ Cafe Phối Nẹp Siêu Nhẹ Siêu Mát</a></p>
+							<p><a href="#"><img src="Images/Products/Product_2.jpg" />Áo Polo Nam Pique Mắt Chim Basic Co Giãn Thoáng Khí</a></p>
+							<p><a href="#"><img src="Images/Products/Product_3.jpg" />Áo Polo Nữ Cafe Phối Màu</a></p>
+							<p><a href="#"><img src="Images/Products/Product_4.jpg" />Áo Polo Nam Coolmax Thoáng Mát Bo Cổ Phối Màu</a></p>
+						</marquee>
+					</div>
+					<div id="thongketruycap">
+						<p>THỐNG KÊ TRUY CẬP</p>
+						<h4>Tổng truy cập: 160</h4>
+						<h4>Đang Online: 3</h4>
+					</div>
+				</div>
+			</aside>
+			<section>
+				<div class="product-container">
+					<p>SẢN PHẨM NỔI BẬT</p>
+					<div class="product-content">
+						<div class="product-show">
+							<a href="Chitietsanpham_demo.html"><img src="Images/Products/Product_1.jpg"></a>
+							<div class="cost">
+								<a href="Chitietsanpham_demo.html"><p>Áo Polo Nữ Cafe Phối Nẹp Siêu Nhẹ Siêu Mát</p></a>
+								<p>
+									599.000đ<span> 629.000đ</span>
+								</p>
+							</div>
+						</div>
+						<div class="product-show">
+							<a href="Chitietsanpham_demo1.html"><img src="Images/Products/Product_2.jpg"></a>
+							<div class="cost">
+								<a href="Chitietsanpham_demo1.html"><p>Áo Polo Nam Pique Mắt Chim Basic Co Giãn Thoáng Khí</p></a>
+								<p>
+									599.000đ<span> 629.000đ</span>
+								</p>
+							</div>
+						</div>
+						<div class="product-show">
+							<a href="Chitietsanpham_demo2.html"><img src="Images/Products/Product_3.jpg"></a>
+							<div class="cost">
+								<a href="Chitietsanpham_demo2.html"><p>Áo Polo Nữ Cafe Phối Màu</p></a>
+								<p>
+									599.000đ<span> 629.000đ</span>
+								</p>
+							</div>
+						</div>
+						<div class="product-show">
+							<a href="Chitietsanpham_demo3.html"><img src="Images/Products/Product_4.jpg"></a>
+							<div class="cost">
+								<a href="Chitietsanpham_demo3.html"><p>Áo Polo Nam Coolmax Thoáng Mát Bo Cổ Phối Màu</p></a>
+								<p>
+									599.000đ<span> 629.000đ</span>
+								</p>
+							</div>
+						</div>
+						<div class="product-show">
+							<a href="Chitietsanpham_demo4.html"><img src="Images/Products/Product_5.jpg"></a>
+							<div class="cost">
+								<a href="Chitietsanpham_demo4.html"><p>Áo Polo Nam Vải Vỏ Hàu Cổ Đức - Xanh Mint</p></a>
+								<p>
+									299.000đ<span> 329.000đ</span>
+								</p>
+							</div>
+						</div>
+						<div class="product-show">
+							<a href="Chitietsanpham_demo5.html"><img src="Images/Products/Product_6.jpg"></a>
+							<div class="cost">
+								<a href="Chitietsanpham_demo5.html"><p>Áo Polo Nữ Cafe Phối Bo</p></a>
+								<p>
+									599.000đ<span> 629.000đ</span>
+								</p>
+							</div>
+						</div>
+						<div class="product-show">
+							<a href="Chitietsanpham_demo6.html"><img src="Images/Products/Product_7.JPG"></a>
+							<div class="cost">
+								<a href="Chitietsanpham_demo6.html"><p>Áo Sơ Mi Nam Tay Ngắn Bamboo Chấm Bi</p></a>
+								<p>
+									399.000đ<span> 629.000đ</span>
+								</p>
+							</div>
+						</div>
+						<div class="product-show">
+							<a href="Chitietsanpham_demo7.html"><img src="Images/Products/Product_8.JPG"></a>
+							<div class="cost">
+								<a href="Chitietsanpham_demo7.html"><p>Áo Sơ Mi Nam Viscose Tay Ngắn Họa Tiết</p></a>
+								<p>
+									199.000đ<span> 229.000đ</span>
+								</p>
+							</div>
+						</div>
+					</div>
+					<a href="#" class="button-continue"><div class="home-view-button">
+						<p>Xem thêm</p>
+					</div></a>
+				</div>
+			</section>
+		</article>
+	</div>
+	
+	<footer>
+		<div class="footer">
+			<div class="left-footer">
+				<div class="slogan">
+					“Đặt sự hài lòng của khách hàng là ưu tiên số 1 trong mọi suy nghĩ hành động của mình” là sứ mệnh, là triết lý, chiến lược.. luôn cùng YODY tiến bước"
+				</div>
+				<div class="get-information">
+					<p>ĐĂNG KÝ NHẬN THÔNG TIN</p>
+					<div class="get-email">
+						<input type="email" placeholder="Nhập email đăng ký của bạn">
+						<input type="button" value="Đăng ký">
+					</div>
+				</div>
+				<div class="social-media-logo">
+					<a href="#"><img src="Images/social%20media/facebook.png"></a>
+					<a href="#"><img src="Images/social%20media/reddit.png"></a>
+					<a href="#"><img src="Images/social%20media/twitter.png"></a>
+					<a href="#"><img src="Images/social%20media/youtube.png"></a>
+					<a href="#"><img src="Images/social%20media/tumblr.png"></a>
+				</div>
+			</div>
+			<div class="middle-footer-1">
+				<ul>
+					<font color="Gray">VỀ YODY</font>
+					<a href="#"><li>Giới thiệu</li></a>
+					<a href="#"><li>Liên hệ</li></a>
+					<a href="#"><li>Tuyển dụng</li></a>
+					<a href="#"><li>Tin tức</li></a>
+					<a href="#"><li>Hệ thống cửa hàng</li></a>
+				</ul>
+			</div>
+			<div class="middle-footer-2">
+				<ul>
+					<font color="Gray">HỖ TRỢ KHÁCH HÀNG</font>
+					<a href="#"><li>Hướng dẫn chọn size</li></a>
+					<a href="#"><li>Chính sách khách hàng thân thiết</li></a>
+					<a href="#"><li>Chính sách đổi/trả</li></a>
+					<a href="#"><li>Chính sách bảo mật</li></a>
+					<a href="#"><li>Thanh toán, giao nhận</li></a>
+				</ul>
+			</div>
+			<div class="right-footer">
+				<p>
+					Công ty cổ phần Thời trang YODY<br>
+					Mã số thuế: 0801206940<br>
+					Địa chỉ: Đường An Định - Phường Việt Hoa - Thành phố Hải Dương - Hải dương
+				</p>
+				<p>
+					Liên hệ đặt hàng: 024 730 56665<br>
+					Thắc mắc đơn hàng: 024 730 16661<br>
+					Góp ý khiếu nại: 1800 2086
+				</p>
+				<p>
+					Email: chamsockhachhang@yody.vn
+				</p>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>

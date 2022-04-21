@@ -1,0 +1,116 @@
+@charset "utf-8";
+/* CSS Document */
+
+section>div>p{
+	background: linear-gradient(to bottom right, #FCAF17, #3B2906);
+	border-top-left-radius: 2px;
+	border-top-right-radius: 2px;
+	text-align: center;
+	font: 16px bold;
+	color: white;
+	height: 25px;
+	padding-top: 5px;
+}
+
+.everydaywear iframe{
+	float: left;
+}
+
+.product-everydaywear{
+	width: 180px;
+	height: 320px;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-left: 10px;
+	float: left;
+}
+
+.product-everydaywear .cost>a{
+	color: black;
+	text-decoration: none;
+}
+
+.product-everydaywear .cost>a:hover{
+	color: #FCAF17;
+}
+
+.product-everydaywear .cost>p{
+	color: #FCAF17;
+}
+
+.product-everydaywear .cost>p span{
+	color: #8F8C8C;
+	text-decoration: line-through;
+}
+
+.product-everydaywear img{
+	width: 180px;
+	
+}
+
+.button-continue div{
+	margin: 10px auto;
+	width: 300px;
+	height: 50px;
+	clear: both;
+	border: 1px solid #FCAF17;
+	border-radius: 10px;
+	background: #FCAF17;
+}
+
+.button-continue div p{
+	font-size: 20px;
+	margin: 15px;
+	text-align: center;
+}
+
+.button-continue{
+	text-decoration: none;
+	color: white;
+}
+
+.home-view-button:hover{
+	background: white;
+	color: #FCAF17;
+}
+
+.yody-news img{
+	width: 100%;
+	padding-bottom: 10px;
+}
+
+.yody-news-post-content{
+	width: 180px;
+	height: 200px;
+	margin-top: 10px; 
+	margin-right: 20px;
+	margin-left: 35px;
+	overflow: hidden;
+    white-space: nowrap;
+}
+
+.yody-news-post-content img{
+	width: 100%;
+	height: 120px;
+}
+
+.yody-news-post-content>a{
+	text-decoration: none;
+	color: black;
+}
+
+.yody-news-post-content>a:hover{
+	color: #FCAF17;
+}
+
+.yody-news-post-content>p{
+	color: #8F8C8C;
+}
+
+.yody-news-post img{
+	width: 100%;
+}
+
+.yody-news-post-content{
+	float: left;
+}
